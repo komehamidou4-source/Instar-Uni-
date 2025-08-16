@@ -1,0 +1,128 @@
+<!DOCTYPE html>  
+<html lang="fr">  
+<head>  
+  <meta charset="UTF-8">  
+  <title>Instar-Uni - Accueil</title>  
+  <link rel="stylesheet" href="style.css">  
+  <style>  
+    body {  
+      font-family: Arial, sans-serif;  
+      background-color: #f5f5f5;  
+      margin: 0;  
+      padding: 0;  
+    }  
+  
+    header {  
+      background-color: #5f2c82;  
+      color: white;  
+      padding: 15px;  
+      display: flex;  
+      justify-content: space-between;  
+      align-items: center;  
+    }  
+  
+    .logo {  
+      font-size: 20px;  
+      font-weight: bold;  
+    }  
+  
+    .icons {  
+      display: flex;  
+      gap: 15px;  
+    }  
+  
+    .stories {  
+      display: flex;  
+      gap: 15px;  
+      overflow-x: auto;  
+      padding: 10px;  
+      background: white;  
+    }  
+  
+    .story {  
+      display: flex;  
+      flex-direction: column;  
+      align-items: center;  
+      text-align: center;  
+      width: 70px;  
+    }  
+  
+    .story img {  
+      width: 60px;  
+      height: 60px;  
+      border-radius: 50%;  
+      border: 2px solid #5f2c82;  
+      object-fit: cover;  
+    }  
+  
+    .story p {  
+      font-size: 12px;  
+      margin-top: 5px;  
+    }  
+  
+    .content {  
+      padding: 15px;  
+    }  
+  
+    nav {  
+      position: fixed;  
+[16/08 08:08] ChatGPT: bottom: 0;  
+      width: 100%;  
+      background: #fff;  
+      display: flex;  
+      justify-content: space-around;  
+      padding: 10px 0;  
+      border-top: 1px solid #ccc;  
+    }  
+  
+    nav a {  
+      text-decoration: none;  
+      color: #5f2c82;  
+      font-size: 12px;  
+      text-align: center;  
+    }  
+  </style>  
+</head>  
+<body>  
+  
+  <header>  
+    <div class="logo">Instar-Uni</div>  
+    <div class="icons">  
+      🔍 🔔  
+    </div>  
+  </header>  
+  
+  <div class="stories">  
+    <div class="story">  
+      <img src="image1.jpg" alt="Story 1">  
+      <p>Moi</p>  
+    </div>  
+    <div class="story">  
+      <img src="image2.jpg" alt="Story 2">  
+      <p>Amina</p>  
+    </div>  
+    <div class="story">  
+      <img src="image3.jpg" alt="Story 3">  
+      <p>Yao</p>  
+    </div>  
+    <div class="story">  
+      <img src="image4.jpg" alt="Story 4">  
+      <p>Léna</p>  
+    </div>  
+  </div>  
+  
+  <div class="content">  
+    <h3>Bienvenue sur Instar-Uni 👋</h3>  
+    <p>Connecte-toi avec tes amis du campus.</p>  
+  </div>  
+  
+  <nav>  
+    <a href="#">🏠<br>Accueil</a>  
+    <a href="#">👥<br>Amis</a>  
+    <a href="#">🎓<br>Campus</a>  
+    <a href="#">📹<br>Vidéo</a>  
+    <a href="#">💬<br>Messagerie</a>  
+  </nav>  
+  
+</body>  
+</html>
